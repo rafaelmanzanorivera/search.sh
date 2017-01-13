@@ -13,7 +13,7 @@ SYNOPSIS:
 
 DESCRIPTION:
 
-	The command search finds files or directories in the specified directory or in the directory tree rooted at given starting-point by the search criteria, a group 		of parameters specified by user.
+	The command search finds files or directories in the specified directory or in the directory tree rooted at given starting-point by the search criteria, a group of parameters specified by user.
 
 
 EXPRESSION:
@@ -32,13 +32,13 @@ EXPRESSION:
 
             Pattern: 
                   -n [string] : 
-                          Files or directories which names contains a match with string.
+                          Files or directories whose names contains a match with string.
                   -c [string] : 
-                          Files which content matches string.
+                          Files whose content matches string.
 
             Permissions:
                    -p  [ --- | r-- | rw- | r-x | rwx ]:
-                          Files which permissions for the user running script matches specified perms.
+                          Files whose permissions for the user running script matches specified perms.
 	
 	
 	
