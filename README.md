@@ -32,7 +32,7 @@ EXPRESSION:
 
             Pattern: 
                   -n [string] : 
-                          Files or directories whose names contains a match with string.
+                          Files or directories whose names contain a match with string.
                   -c [string] : 
                           Files whose content matches string.
 
