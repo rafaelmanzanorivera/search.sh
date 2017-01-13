@@ -1,7 +1,15 @@
 #!/bin/bash
 
+#AUTHOR Rafael Manzano Rivera
+
+#BASH_VERSION
+#4.3.46(1)-release
+
+#Ubuntu 16.04.1 LTS
+
 # Parsing list of arguments 
-# Usage: script <dir> <criteria> 
+
+# Usage: script <dir> <criteria> <actiona>
 # 
 # Criteria: [-t|-n|-c|-p]
 
@@ -160,8 +168,8 @@ function checkCommandExistance
     finalcommand=${BASH_REMATCH[1]}
 
     if ! command -v $finalcommand > /dev/null 2>&1; then
-        showError 11 "Cannot continue, $finalcommand is not a valid command"
-        exit 11
+        showError 14 "Cannot continue, $finalcommand is not a valid command"
+        exit 14
     fi
 }
 
@@ -693,8 +701,8 @@ fi
                 if [[ ! $2 == "-exec" ]]; then
                     PIPE+=" $2"
                 else
-                    showError 7 "Cannot use -exec and -pipe at the same time"
-                    exit 
+                    showError 8 "Cannot use -exec and -pipe at the same time"
+                    exit 8
                 fi
                 shift
             done
@@ -705,8 +713,8 @@ fi
                 if [[ ! $2 == "-pipe" ]]; then
                     EXEC+=" $2"
                 else
-                    showError 7 "Cannot use -exec and -pipe at the same time"
-                    exit 
+                    showError 8 "Cannot use -exec and -pipe at the same time"
+                    exit 8
                 fi
                 shift
             done
@@ -734,7 +742,7 @@ fi
 
 
 checkParameterErrors
-
+ 
 checkDirectory
     
 cd "$DIR"
