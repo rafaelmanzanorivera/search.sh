@@ -114,42 +114,7 @@ sudo /home/rafael/searchF.sh /bin -t f -n sys -p rwx -print y
 
 
 
-
-
-TODO
-
-#error si buscas caddena en directorios
-/home/rafael/searchF.sh /bin -t d -c sys -p rwx -print y
-
-
-#error si tipo de archivo o permiso no existe
-
-/home/rafael/searchF.sh /home -t g -n you -p rwx -print y -r y
-
-/home/rafael/searchF.sh /home -t f -n you -p ewx -print y -r y
-
-
-#Si directorio no existe
-/home/rafael/searchF.sh /homer -t f -n you -p ewx -print y -r y
-
-#Si usas grep y exec a la vez
-/home/rafael/searchF.sh /home -t f -n you -p rwx -r y -pipe grep a -exec d
-
-#Si el commmando pasado por grep o pipe no existe
-
-/home/rafael/searchF.sh /home -t f -n you -p rwx -r y -exec wcs
-
-#Si excede timeout
-
-
-
-
-
-
-
 ERRORES
-
-
 
 
 1 "Cannot read '$DIR'"
