@@ -1,14 +1,7 @@
 
 
 
-
-
-
-
-
-
-
-ARCHIVOS 
+BUSQUEDA ARCHIVOS 
 
 /home/rafael/searchF.sh /home -t f -n you -p rwx -r y -print y
 
@@ -48,7 +41,7 @@ ARCHIVOS
 
 
 
-DIRECTORIOS
+BUSQUEDA DIRECTORIOS
 
 /home/rafael/searchF.sh /home -t d -n sc -p rwx -r y -print y
 
