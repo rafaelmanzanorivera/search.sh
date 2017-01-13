@@ -12,9 +12,9 @@ BUSQUEDA ARCHIVOS
 
 
 
-/home/rafael/searchF.sh /home -t f -c teta -p rw- -r y -print y
+/home/rafael/searchF.sh /home -t f -c tetae -p rw- -r y -print y
 
- 0 -rw------- 1 rafael rafael     0 ene 10 16:33 thisfilehas_rw-_for_rafaelCONTIENE:TETA.txt
+ 0 -rw------- 1 rafael rafael     0 ene 10 16:33 thisfilehas_rw-_for_rafaelCONTIENE:TETAE.txt
 
 
 
