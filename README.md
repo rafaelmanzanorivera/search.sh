@@ -1,9 +1,9 @@
 # search.sh
 Command Manual
 
-NAME: search.sh 
+NAME: 
 
-	File and directory search by parameters
+	search.sh : File and directory search by parameters
 
 
 SYNOPSIS:
@@ -14,6 +14,7 @@ SYNOPSIS:
 DESCRIPTION:
 
 	The command search finds files or directories in the specified directory or in the directory tree rooted at given starting-point by the search criteria, a group 		of parameters specified by user.
+
 
 EXPRESSION:
 
@@ -53,6 +54,7 @@ EXPRESSION:
               
           -r | --recursive 
                 Makes the script call itself in each of the subdirectories with the same parameters.
+
 
 ENVIRONMENT VARIABLES
 		
